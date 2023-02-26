@@ -3,10 +3,10 @@ import javax.swing.JOptionPane;
 public class Ex07 {
     public static void Dec2Bin(int num) {
         if (num == 1) {
-            System.out.println(num);
+            System.out.print(num);
         } else {
             Dec2Bin(num / 2);
-            System.out.println(num % 2);
+            System.out.print(num % 2);
         }
     }
 

@@ -6,10 +6,8 @@ public class Ex06 {
             int x = menor(vector, n - 1);
 
             if (vector[n] > x) {
-                System.out.println(x);
                 return x;
             } else {
-                System.out.println(vector[n]);
                 return vector[n];
             }
         }
